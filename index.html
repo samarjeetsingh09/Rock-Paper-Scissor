@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK-PAPER-SCISSOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="score">
+            <div class="player_score">
+                <h3>Player-Score</h3>
+                <p id="player_s">0</p>
+            </div>
+            <div class="computer_score">
+                <h3>Computer-Score</h3>
+                <p id="computer_s">0</p>
+            </div>
+        </div>
+        <div class="intro ">
+            <h1>ROCK | PAPER | SCISSOR</h1>
+            <button class="new-btn">Let's Play</button>
+        </div>
+
+        <div class="match hide">
+            <h2 class="winner">Choose an Option</h2>
+            <div class="hands">
+                <img src="rock.png" alt="player-hand" class="player-hand">
+                <img src="rock.png" alt="computer-hand" class="computer-hand">
+            </div>
+            <div class="options">
+                <button class="rock" id="choice">rock</button>
+                <button class="paper" id="choice">paper</button>
+                <button class="scissor" id="choice">scissor</button>
+            </div>
+        </div>
+    </section>
+    <div class="parent ">
+    <button class="reset-btn hide">RESET-GAME</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
